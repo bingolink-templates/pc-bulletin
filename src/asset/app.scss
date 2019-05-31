@@ -1,0 +1,32 @@
+.el-carousel{
+    background: #FFF;
+}
+
+.bulletin{
+    display: flex;
+    .left{
+        margin: 13px 12px;
+        font-size:16px;
+        line-height: 16px;
+        color:rgba(255,148,59,1);
+    }
+    .line{
+        width:1px;
+        height:34px;
+        margin-top: 4px;
+        background:rgba(224,228,229,1);
+    }
+    .right{
+        flex: 1;
+        padding: 0 16px;
+        font-size:12px;
+        line-height: 42px;
+        color:#4D4C4F;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        &.hasOpenUrl{
+            cursor: pointer;
+        }
+    }
+}
