@@ -30,3 +30,19 @@
         }
     }
 }
+
+.error-info{
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    img{
+        width: 24px;
+        vertical-align: text-bottom;
+    }
+    span{
+        font-size: 12px;
+        cursor: pointer;
+    }
+}
